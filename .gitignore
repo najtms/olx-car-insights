@@ -1,0 +1,46 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+env
+
+global.helper
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# VSCode settings
+.vscode/
+*.code-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment variables / secrets
+.env
+.env.*
+
+# Streamlit cache
+.streamlit/
+
+# Data/output files (if any)
+*.sqlite3
+*.db
+*.log
+
+# PyDeck/Altair/Streamlit temp files
+*.json.gz
+*.tmp
+
+# Ignore cities.json if it's large or sensitive (optional)
+# json/cities.json
+
+# Ignore any other local data you don't want to share
+# data/
